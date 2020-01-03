@@ -2,6 +2,8 @@ import React from 'react'
 import './Experience.scss'
 
 
+// Experience Section
+
 const Experience = () => {
 
     return (
@@ -22,7 +24,7 @@ const Experience = () => {
                     <h4>OmniPrime Marketing, Inc.</h4>
                 </div>
             </li>
-            <li>
+            <li> 
                 <div class="bullet orange"></div>
                 <div class="date">Jan 2014 to May 2015</div>
                 <div class="desc">
