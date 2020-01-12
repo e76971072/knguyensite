@@ -1,8 +1,6 @@
 import React from 'react'
 import './Education.css'
 
-
-
 const Education = (props) => {
     const education = props.resumeEducation
     const name = props.resumeName

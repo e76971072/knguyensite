@@ -12,8 +12,8 @@ const name = props.resumeName
             <h3  id="mynameis"> Hi, my name is </h3>
             <h2 id="name"> {name} </h2>
             <h1 id="about"> Fullsnack Engineer | Software Engineer   </h1>
-            <h3 id="school"> I am currently enjoy my senior year at  <span id="mynameis"> University of Texas at San Antonio </span></h3>
-          
+            <h3 id="school"> I am currently enjoy my senior year at  <span id="university"> University of Texas at San Antonio </span></h3>
+
         </div>
     )
 }

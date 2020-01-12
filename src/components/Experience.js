@@ -5,7 +5,6 @@ import './Experience.scss'
 // Experience Section
 
 const Experience = () => {
-
     return (
     <div class="timeline-small">
     <div class="header">

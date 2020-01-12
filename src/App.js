@@ -6,6 +6,7 @@ import Greeting from './components/Greeting'
 import Loading from './components/Loading'
 import Education from './components/Education'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 import resume from './data/resumeData';
 import './App.css'
 function App(props) {
@@ -18,8 +19,9 @@ function App(props) {
       <div id="containermiddle">
       <Greeting  resumeAbout= {resumeData.About} resumeName={resumeData.name}/> 
         {/* <Loading /> */}
-        <Experience />
-       <Education  resumeEducation={resumeData.Education}  resumeName={resumeData.name}/>
+        {/* <Experience /> */}
+        <Projects  projects={resumeData.Project} />
+       {/* <Education  resumeEducation={resumeData.Education}  resumeName={resumeData.name}/> */}
        </div>
     </div>
   );

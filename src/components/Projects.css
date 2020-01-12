@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif|Raleway:200&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:900&display=swap');
+
+
+.containerProjects {
+    margin-top: 30%;
+}
+h3 {
+    font-size:  2em;
+    color: rgb(100, 255, 218);
+    font-family: 'Raleway', sans-serif;
+}
+span {
+    font-family: 'Titillium Web', sans-serif;
+    font-size:  1em;
+    color: honeydew;
+}

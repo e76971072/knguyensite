@@ -9,11 +9,12 @@ $orange: #EB8B6E;
 
 .timeline-small {
   max-width: 350px;
-  max-height: 630px;
+  max-height: 1030px;
   overflow: hidden;
   margin: 30px auto 0;
   box-shadow: 0 0 40px lighten($black, 50);
   font-family: 'Open Sans', sans-serif;
+  margin-top: 20%;
 }
 
 .header {

@@ -5,8 +5,8 @@ import Particles from 'react-particles-js'
 const Particle = () => {
     const styles = {
         particle: {
-            position: "absolute", 
-            height:'10%',
+            position: "fixed", 
+            height: window.innerHeight, 
             backgroundColor: "rgb(13,24,41)",
             zIndex: "-1",
         }

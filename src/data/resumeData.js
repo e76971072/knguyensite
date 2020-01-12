@@ -3,6 +3,7 @@ const  resume = {
     "About": "You can call me Fullsnack or Software Engineer ", 
     "name": "Kevin Nguyen", 
     "title": "Software Engineer", 
+    "titleProject": "Something I've built with ", 
     "Social-media" :[
          {
              "name": "Linkedin", 
@@ -22,19 +23,19 @@ const  resume = {
     "Project": [
         {
             "name": "RowdyMart", 
-            "lan": "React js + Python + PhpMySQL"
+            "lan": ["React", "Python", "PhpMySQL"], 
+            "description": "is a one-stop grocery shop containing a catalog of grocery items to fit your everyday needs, also help UTSA students stay healthy. We wanted to make the process of getting groceries as painless as possible.", 
+            "url": "https://github.com/e76971072/CUSTOMER-PORTAL/blob/master/project-app/img/Cart-checkout-view.png?raw=true", 
         }, 
         {
             "name": "PottyPicker", 
-            "lan": "Java + javafxml "
+            "lan": ["Java","Javafxml","JavaMail API"], 
+            "description": " is your go-to application for user rated reviews on the best and the worst bathrooms. Student can let the janitorial or school knows if the bathroom needs some improvements", 
+            "url": "https://github.com/UTSA-CS-3443/PotTYpicker/blob/master/image/Login_Controller.png?raw=true"
         }, 
-        {
-            "name": "Encryption and Bit Manupilation", 
-            "lan": "C + Assembly"
-        }
+        
     ], 
     "Education" : "University of Texas at San Antonio", 
-
     "Where I've worked": [
         {
             "name": "Polycom Inc", 
