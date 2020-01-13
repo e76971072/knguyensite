@@ -2,6 +2,7 @@ import React  from 'react'
 import './Card.css'
 export default function Card  (props) {
     const currentProject  = props.current
+    // I have something in comment
     const styles = {
         title :{
            color: "rgba(255,104,115,1)", 
@@ -17,7 +18,7 @@ export default function Card  (props) {
     ul : {
         textAlign: "center",
     },
-    img: {
+    img: { 
         backgroundColor: "rgba(220,220,220,0.4)",
         zIndex: "1", 
     },
