@@ -29,17 +29,16 @@ export default function Card  (props) {
         color: "rgba(48,69,92,0.8)", 
         letterSpacing: "1px", 
         }, 
-   
     }   
     console.log (currentProject.lan)
     return (
-        <div style={styles.root}>
-            <img  style={styles.img}src={currentProject.url}  width="600px" />
-            <h2 style={styles.title}> {currentProject.name}</h2>
-            <ul style={styles.ul}>
+        <div className="root">
+            <img  className="img" src={currentProject.url}   />
+            <h2 className="title"> {currentProject.name}</h2>
+            <ul className="ul" >
             {currentProject.lan.map(index =>{
                 return (
-                <li style={styles.li}> {index} </li>
+                <li className="li"> {index} </li>
                 )
             })}
             </ul>

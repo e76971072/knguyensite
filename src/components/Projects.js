@@ -2,6 +2,8 @@ import  React,  {useEffect, useState, useRef} from 'react';
 import BuildIcon from '@material-ui/icons/Build';
 import GavelIcon from '@material-ui/icons/GavelTwoTone';
 import { FaGithub } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+
 import './Projects.css'
 import Card from './Card'
 
@@ -63,13 +65,19 @@ return (
         </h3>
         {Projects.map (index => {
           return(
-           <div  style={styles.containerCard}>
-            <p style={styles.description} className="something">
-            <span style={styles.title}>{index.name+'    '}</span>
+           <div className="containerCard">
+            <p className="description">
+            <span className="titleProject">{index.name+'    '}</span>
               {index.description}
-             <br/> <br/><FaGithub style={styles.icon}/>
+             <br/> <br/>
+             <FaGithub className="githubProject"/>
+             <FaTelegram className="githubProject"/>
               </p> 
             <Card current={index} />
+            <div className="iconMobile">
+              <FaGithub  className="githubProject" />
+              <FaTelegram className="githubProject"/>
+            </div>
           </div>
           )
         })}
