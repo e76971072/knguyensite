@@ -20,9 +20,6 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
-
-
-
 import MailIcon from '@material-ui/icons/Mail';
 import Accountbox from '@material-ui/icons/AccountBox'; 
 import School from '@material-ui/icons/School'; 
@@ -30,13 +27,13 @@ import Soccer from '@material-ui/icons/SportsSoccer';
 import Work from '@material-ui/icons/Work'; 
 import Skill from '@material-ui/icons/Code'; 
 import Greeting from './Greeting';
-
-
+import './Navbar.css'; 
+import Media from 'react-media';
 const drawerWidth = 240;
 
 const useStyles = makeStyles(theme => ({
   root: {
-    display: 'flex',
+    display: 'flex',  // checking for resize window if it's less than 705px , then display mobile nav bar
     zIndex: "0",
   },
   appBar: {
@@ -116,6 +113,7 @@ export default function NavBar( props ) {
   };
 
   return (
+    <Media queries={{ small: { maxWidth: 700 } }}>
     <div className={classes.root}>
       <CssBaseline />
       <AppBar
@@ -172,16 +170,7 @@ export default function NavBar( props ) {
           ))}
         </List>
       </Drawer>
-      {/* <main
-        className={clsx(classes.content, {
-          [classes.contentShift]: open,
-        })}
-      >
-        <div className={classes.drawerHeader} />
-      
-      
-      </main> */}
-
     </div>
+    </Media>
   );
 }

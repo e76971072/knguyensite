@@ -16,7 +16,7 @@ function App(props) {
     <div className="App"> 
       <Particle /> 
       <Navbar />
-      {/* <NavBarMobile style={{display: "none"}} resumeData={resumeData.Header}  /> */}
+      <NavBarMobile style={{display: "none"}} resumeData={resumeData.Header}  />
       <div id="containermiddle">
       <Greeting  resumeAbout= {resumeData.About} resumeName={resumeData.name} resumeEmail= {resumeData.email}/> 
         <Projects  projects={resumeData.Project} />
