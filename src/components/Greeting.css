@@ -10,6 +10,13 @@
     text-align: center;
    
 } */
+#contactButton {
+    background: transparent;
+    border: 1px solid gray;
+}
+.hoverContact {
+    background: white;
+}
 #containerGreeting {
     text-align: center;
 }

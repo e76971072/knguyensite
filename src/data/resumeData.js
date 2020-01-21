@@ -4,6 +4,7 @@ const  resume = {
     "name": "Kevin Nguyen", 
     "title": "Software Engineer", 
     "titleProject": "Something I've built with ", 
+    "email": "an.nguyen1197@gmail.com", 
     "Social-media" :[
          {
              "name": "Linkedin", 
@@ -36,16 +37,48 @@ const  resume = {
         
     ], 
     "Education" : "University of Texas at San Antonio", 
-    "Where I've worked": [
+    "experience": [
         {
-            "name": "Polycom Inc", 
+            "name": "FreeLance",
+            "pos": "FreeLance", 
+            "web": "", 
+            "key":1, 
+            "date": "Nov 2019 - Current", 
+            "desc": [
+                {"task":"Working on various projects"}
+        ],   
+            "lan": "Java",
+            "loc": "San Antonio, Texas"
+        }, 
+        {
+            "name": "Polycom Inc",
+            "pos": "Software Engineer Intern",
+            "web": "https://www.polycom.com/", 
+            "key":2,
+            "date": "June 2019 - August 2019", 
+            "desc": [
+                    {'task':"Developed and implemented User Graphical Interface of language translation tool in C#."}, 
+                    {'task':"Implemented conversion of xml format file in Python."}, 
+                    {'task':"Embraced the AgileScrum development methodology."}
+                ],  
             "lan": "Python", 
+            "loc": "Austin, Texas"
         },
         {
-            "name": "Government Personnal Mutual Life Insurance", 
-            "lan": "Java"
+            "name": "GPM Life Insurance", 
+            "pos": "Software Programmer Intern", 
+            "web": "https://www.gpmlife.com/wps/portal", 
+            "key":3,
+            "date": "February 2019 - June 2019", 
+            "desc": [
+                {"task":"Assisted the senior developer in maintaining and developing company’s Databases, web server."}, 
+                {"task":" Designed and Implemented tools to assist with data."}
+            ], 
+            "lan": "Java",
+            "loc": "San Antonio, Texas"
         }, 
-    ]
+       
+    ], 
 
 }
 

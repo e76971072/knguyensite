@@ -30,7 +30,6 @@ export default function Card  (props) {
         letterSpacing: "1px", 
         }, 
     }   
-    console.log (currentProject.lan)
     return (
         <div className="root">
             <img  className="img" src={currentProject.url}   />

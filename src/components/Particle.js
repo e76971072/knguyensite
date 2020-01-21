@@ -6,6 +6,7 @@ const Particle = () => {
     const styles = {
         particle: {
             position: "fixed", 
+            top: '0', 
             height: window.innerHeight, 
             backgroundColor: "rgb(13,24,41)",
             zIndex: "-1",
