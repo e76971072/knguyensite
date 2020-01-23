@@ -29,19 +29,19 @@ function NavBar2 (props) {
     return (
         <Media queries={{ small: { minWidth: 700 } }}>
             <ul className="listNavBar" style={styles.ul}>
-                <li style={styles.li}>  About Me   </li>
-                <li style={styles.li}> Experience </li>
-                <li style={styles.li}>  Hobbies </li>
-                <li style={styles.li}>  <Button 
-                style={styles.button}
-                href="https://drive.google.com/file/d/1hG2hO3QGnRroUjmOg8VJSGgrvOaKL56G/view?usp=sharing"
-                target="_blank"
-                > Résumé&nbsp;&nbsp; <FaRegFilePdf /> 
-                </Button> </li>
+                <li onMousEnter={{color: "rgb(100,255,176)"}}style={styles.li}> <span>01.</span>About Me   </li>
+                <li style={styles.li}>  <span>02.</span>Experience </li>
+                <li style={styles.li}>  <span>03.</span> Hobbies </li>
+                <li style={styles.li}>  
+                    <Button 
+                        style={styles.button}
+                        href="https://drive.google.com/file/d/1hG2hO3QGnRroUjmOg8VJSGgrvOaKL56G/view?usp=sharing"
+                        target="_blank"> 
+                        Résumé&nbsp;&nbsp; <FaRegFilePdf /> 
+                     </Button>
+                </li>
             </ul>
        </Media>
     )
 }
-
-
 export default NavBar2; 
