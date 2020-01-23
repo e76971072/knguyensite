@@ -66,7 +66,7 @@ const Experience = (props) => {
   }; 
   const experience = props.experience
     return (
-        <div className="containerExperience">
+        <div id="containerExp" className="containerExperience">
         <Title  index={"03. "} titleName={"Where I've worked"} />
         <ToggleButtonGroup
             style={styles.ToggleContainer.ToggleButtonGroup}
