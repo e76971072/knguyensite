@@ -24,15 +24,24 @@ const styles =
             fontWeight: "300", 
         }
     }
+const handleWindowScroll =  ( event ) =>{ 
+
+    window.scrollTo(0,1000)    
+    console.log(event.currentTarget.name)
+}
 
 function NavBar2 (props) {
     return (
         <Media queries={{ small: { minWidth: 700 } }}>
             <ul className="listNavBar" style={styles.ul}>
-                <li onMousEnter={{color: "rgb(100,255,176)"}}style={styles.li}> <span>01.</span>About Me   </li>
-                <li style={styles.li}>  <span>02.</span>Experience </li>
-                <li style={styles.li}>  <span>03.</span> Hobbies </li>
-                <li style={styles.li}>  
+                <li onClick= {(event) => handleWindowScroll(event)} className="one" 
+                    onMousEnter={{color: "rgb(100,255,176)"}}
+                   > 
+                    About Me   
+                </li>
+                <li onClick= {(event) => handleWindowScroll(event)}className="two" > Experience </li>
+                <li onClick= {(event) => handleWindowScroll(event)} className="three" >  Hobbies </li>
+                <li onClick= {(event) => handleWindowScroll(event)} className="four" >  
                     <Button 
                         style={styles.button}
                         href="https://drive.google.com/file/d/1hG2hO3QGnRroUjmOg8VJSGgrvOaKL56G/view?usp=sharing"
