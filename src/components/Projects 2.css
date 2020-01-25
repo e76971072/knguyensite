@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif|Raleway:200&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:900&display=swap');
+
+.containerProjects {
+    margin-top: 30%;
+}
+.containerCard {
+    margin-bottom: 20%;
+}
+.iconMobile {
+   display: none;
+}
+.githubProject {
+    color: white;
+    font-size: 2em;
+    margin: 10px;
+}
+.githubProject:hover {
+    color: rgb(100, 255, 218);
+}
+
+h3 {
+    font-size:  2em;
+    color: rgb(100, 255, 218);
+    font-family: 'Raleway', sans-serif;
+}
+span {
+    font-family: 'Titillium Web', sans-serif;
+    font-size:  1em;
+    color: honeydew;
+}
+.description {
+    color: rgb(136, 146, 176); 
+    background-color: rgb(23,37,59); 
+    font-size: 1.1em;
+    position: absolute; 
+    font-family : Times New Roman, Times, serif; 
+    transform: translate(90%, 80%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2%;
+    width : 45%; 
+  }
+.titleProject {
+    color: rgb(100, 255, 218);
+    font-family : Times New Roman, Times, serif; 
+    font-size: 1.1em;
+}
+.projectIcon {
+    font-size: 2.5rem;
+}
+@media (max-width: 62.5em) {
+   .description {
+      display: none;
+   }
+   .iconMobile {
+    display: inline;
+    position: absolute;
+    left: 50%;
+    font-size: 1.5em;
+    transform: translateY(-10em);
+   }
+   .githubProject:hover {
+       color: rgb(100, 255, 218);
+   }
+   .projectIcon {
+       font-size: small;
+   }
+   .titleProject {
+    font-size: 1em;
+   }
+   .containerCard {
+    width: 20em;
+    }
+  
+}
+@media ( max-width: 700px){
+    .iconMobile{
+    left: 30%;
+    position: relative;
+    }
+}
+@media ( max-width: 500px){
+    .containerProjects h3  {
+        font-size: 1.2em;
+    }
+    .containerCard {
+        width: 20em;
+    }
+}

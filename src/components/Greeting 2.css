@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif|Raleway:200&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:900&display=swap');
+
+/* #containerGreeting {
+    position: absolute;  
+    z-index: 100; 
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    text-align: center;
+   
+} */
+#contactButton {
+    background: transparent;
+    border: 1px solid gray;
+}
+.hoverContact {
+    background: white;
+}
+#containerGreeting {
+    text-align: center;
+}
+#profileMe {
+    border-radius: 50%; 
+    width: 10%;  
+    filter: grayscale(1);
+}
+
+#mynameis {
+    font-size: 1em;
+    color: rgb(100, 255, 218);
+    font-family: 'Raleway', sans-serif;
+}
+#university {
+    font-size: 1em;
+    color: rgb(100, 255, 218);
+    font-family: 'Raleway', sans-serif;
+}
+#name {
+    font-family: 'Titillium Web', sans-serif;
+    font-size:  3em;
+    color: honeydew;
+}
+#about {
+    font-size: 4em;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(136, 146, 176);
+}
+#school {
+    font-size: 1.2em;
+    color: rgb(136, 146, 176);
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 62.5em) {
+    #name {
+        font-size: 1.2em; 
+    }
+    #about {
+        font-size: 1.4em;
+    }
+    #school {
+        font-size: 0.8em;
+    }
+    
+}
+
