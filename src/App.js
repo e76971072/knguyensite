@@ -9,6 +9,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Navbar from './components/NavBar2'
 import resume from './data/resumeData';
+import SlideWindow from './components/SlideWindow'
 import './App.css'
 function App(props) {
 
@@ -21,6 +22,7 @@ function App(props) {
       <Greeting  resumeAbout= {resumeData.About} resumeName={resumeData.name} resumeEmail= {resumeData.email}/> 
         <Projects  projects={resumeData.Project} />
         <Experience experience={resumeData.experience}/>
+        <SlideWindow />
        </div>
     </div>
   );

@@ -55,7 +55,7 @@ export default function Projects (props) {
         })
         
 return (
-     <div id="containerProjects" className="containerProjects">
+     <div id="containerProjects"className="containerProjects">
         <h3> 02.  
             <span> Some things I've  {'  '}
                 <span className="things">
