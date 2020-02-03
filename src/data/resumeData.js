@@ -26,7 +26,7 @@ const  resume = {
             "name": "RowdyMart", 
             "lan": ["React", "Python", "PhpMySQL"], 
             "description": "is a one-stop grocery shop containing a catalog of grocery items to fit your everyday needs, also help UTSA students stay healthy. We wanted to make the process of getting groceries as painless as possible.", 
-            "url": "https://github.com/e76971072/CUSTOMER-PORTAL/blob/master/project-app/img/Cart-checkout-view.png?raw=true", 
+            "url": "https://github.com/e76971072/AI-Assistant/raw/master/image/Example.png", 
         }, 
         {
             "name": "PottyPicker", 
@@ -42,8 +42,9 @@ const  resume = {
             "name": "FreeLance",
             "pos": "FreeLance", 
             "web": "", 
-            "key":1, 
-            "date": "Nov 2019 - Current", 
+            "key":"one", 
+            "date": "Nov 2019 - Present", 
+            "url": "https://image.flaticon.com/icons/svg/1807/1807705.svg", 
             "desc": [
                 {"task":"Working on various projects"}
         ],   
@@ -51,10 +52,11 @@ const  resume = {
             "loc": "San Antonio, Texas"
         }, 
         {
-            "name": "Polycom Inc",
+            "name": "Poly, Inc",
             "pos": "Software Engineer Intern",
             "web": "https://www.polycom.com/", 
-            "key":2,
+            "key":"two",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQow_rbxf8KTdaJl7qTqBDyIade-oZdZD2jKhXQ9X5jrxgAfC0G",
             "date": "June 2019 - August 2019", 
             "desc": [
                     {'task':"Developed and implemented User Graphical Interface of language translation tool in C#."}, 
@@ -68,7 +70,8 @@ const  resume = {
             "name": "GPM Life Insurance", 
             "pos": "Software Programmer Intern", 
             "web": "https://www.gpmlife.com/wps/portal", 
-            "key":3,
+            "key":"three",
+            "url": "https://pbs.twimg.com/profile_images/917488294077669376/uzFoPVid_400x400.jpg", 
             "date": "February 2019 - June 2019", 
             "desc": [
                 {"task":"Assisted the senior developer in maintaining and developing company’s Databases, web server."}, 
