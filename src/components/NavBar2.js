@@ -30,13 +30,13 @@ const handleWindowScroll =  ( event ) =>{
         handleScroll(null)
     }
     if (event.currentTarget.id === 'two'){
-        handleScroll('containerExp')
+        handleScroll('containerExperience')
     }
     if (event.currentTarget.id === 'three'){
         handleScroll('containerProjects')
     }
     if (event.currentTarget.id === 'four'){
-        handleScroll('containerExp')
+        handleScroll('containerExperience')
     }
 }
 

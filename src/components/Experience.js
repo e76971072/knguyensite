@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './Experience.css'
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Title from './Title'
@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 import Avatar from '@material-ui/core/Avatar';
 import {FaMapMarkerAlt} from "react-icons/fa"
 import styled, {keyframes} from 'styled-components'
+import Bounce from 'react-reveal/Bounce';
 
 
 import './Experience.css'
@@ -13,13 +14,19 @@ import './Experience.css'
 // Experience Section
 
 const Experience = (props) => {
+    const [position, setPos] = useState(0);
+    useEffect(() => {
+        setPos(window.pageYOffset);
+    })
     const rotate = keyframes`
     from {
-      transform: rotate(0deg);
+      opacity: 0.75; 
+      transform: translateY(-100%);
     }
   
     to {
-      transform: rotate(360deg);
+      opacity: 1; 
+      transform: translateY(0);
     }
   `;
   const Rotate = styled.div`
@@ -31,14 +38,22 @@ const Experience = (props) => {
     setHoverOne(!hoverOne);
    
  }
+ const styles = {
+    notDisplay:{
+        display: "none"
+    },
+    display: {
+        display: "inline"
+    }
+ }
   const experience = props.experience
     return (
-<div className="containerExperience">
-<Title index={"03"} titleName={"Recent Work"}/>
-<div  className="page-wrapper" >
-    {experience.map( index =>{
+        <div id="containerExperience" className="containerExperience">
+        <Title index={"03"} titleName={"Recent Work"}/>
+        <div  className="page-wrapper" >
+     {experience.map( index =>{
             return (
-            <Rotate>
+            <Bounce left>
             <div id={index.key}  
             className="profile-1"  
             style={rotate}>
@@ -58,8 +73,8 @@ const Experience = (props) => {
                 <p> <FaMapMarkerAlt/>  {index.loc}        </p>
             </div>
         </div>
-        </Rotate>
-            )
+        </Bounce>
+        )
     })}
         
 </div>
