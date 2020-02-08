@@ -26,7 +26,6 @@ import School from '@material-ui/icons/School';
 import Soccer from '@material-ui/icons/SportsSoccer'; 
 import Work from '@material-ui/icons/Work'; 
 import Skill from '@material-ui/icons/Code'; 
-import Greeting from './Greeting';
 import './Navbar.css'; 
 import Media from 'react-media';
 const drawerWidth = 240;

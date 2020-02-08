@@ -1,4 +1,4 @@
-import  React,  {useEffect, useState, useRef} from 'react';
+import  React,  {useEffect, useState} from 'react';
 import BuildIcon from '@material-ui/icons/Build';
 import GavelIcon from '@material-ui/icons/GavelTwoTone';
 import { FaGithub } from "react-icons/fa";
@@ -9,31 +9,7 @@ import Card from './Card'
 
 export default function Projects (props) {
  
-  const styles = {
-    containerCard : {
-      marginBottom: "20%",
-    }, 
-    title: {
-      color: "rgb(100, 255, 218)",
-      fontFamily : "Times New Roman, Times, serif", 
-      fontSize: "1.1em", 
-    }, 
-    description: {
-      color: "rgb(136, 146, 176)", 
-      backgroundColor: "rgb(23,37,59)", 
-      fontSize: "1.1em", 
-      position: "absolute", 
-      fontFamily : "Times New Roman, Times, serif", 
-      transform: "translate(90%, 80%)", 
-      boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-      padding: "2%", 
-      width : "30%", 
-   
-    },
-    icon : {
-      fontSize: "2.5rem", 
-    }
-  }
+  
     const Projects = props.projects
         const words = [
             'built', 
@@ -70,13 +46,13 @@ return (
             <span className="titleProject">{index.name+'    '}</span>
               {index.description}
              <br/> <br/>
-             <FaGithub className="githubProject"/>
-             <FaTelegram className="githubProject"/>
+             <a href={index.git} target="_blank" rel="noopener noreferrer"><FaGithub  className="githubProject"/></a>
+             <a href={index.web} target="_blank" rel="noopener noreferrer"><FaTelegram className="githubProject"/></a>
               </p> 
             <Card current={index} />
             <div className="iconMobile">
-              <FaGithub  className="githubProject" />
-              <FaTelegram className="githubProject"/>
+            <a href={index.git} target="_blank" rel="noopener noreferrer"><FaGithub  className="githubProject"/> </a>
+            <a href={index.web} target="_blank" rel="noopener noreferrer"><FaTelegram className="githubProject"/></a>
             </div>
           </div>
           )

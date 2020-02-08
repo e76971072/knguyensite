@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import Button from '@material-ui/core/Button'
 import {FaRegFilePdf} from "react-icons/fa"
 import './NavBar2.css'

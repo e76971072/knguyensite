@@ -6,6 +6,7 @@
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   box-shadow: 5px 10px 20px -10px #aaaaaa;
+  
 
 }
 .profile-1 {
@@ -35,4 +36,22 @@
   font-weight: 800;
   font-size: 1rem;
 
+}
+
+@media (max-width: 65em) {
+
+  .content h4 {
+    font-size: 0.8em;
+  }
+  .content h2 {
+    font-size: 0.7em;
+  }
+  .content p {
+    font-family: "Oxygen", sans-serif;
+    font-size: 0.7em;
+  }
+  #avatar {
+      margin-top: 20%;
+ 
+  } 
 }

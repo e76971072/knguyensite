@@ -1,3 +1,7 @@
+import React from 'react'
+import { FaJava ,FaReact , FaPython, FaDatabase, FaMailBulk} from "react-icons/fa";
+
+
 const  resume = {
     "Header":["About", "Education", "Hobbies", "Experience", "Skills", "Contact" ], 
     "About": "You can call me Fullsnack or Software Engineer ", 
@@ -24,13 +28,18 @@ const  resume = {
     "Project": [
         {
             "name": "RowdyMart", 
-            "lan": ["React", "Python", "PhpMySQL"], 
+            "lan": [{"name":"ReactJS", "icon": <FaReact/>}, {"name":"Python", "icon": <FaPython/>}, {"name": "PhpMySQL", "icon": <FaDatabase/> }], 
+            "web": "http://grocery-front-end.herokuapp.com/", 
+            "git": "https://github.com/e76971072/RowdyCart-User-Interface", 
             "description": "is a one-stop grocery shop containing a catalog of grocery items to fit your everyday needs, also help UTSA students stay healthy. We wanted to make the process of getting groceries as painless as possible.", 
-            "url": "https://github.com/e76971072/AI-Assistant/raw/master/image/Example.png", 
+            "url": "https://github.com/e76971072/RowdyCart-User-Interface/blob/master/img/Cart-checkout-view.png?raw=true", 
         }, 
         {
             "name": "PottyPicker", 
-            "lan": ["Java","Javafxml","JavaMail API"], 
+            "lan": [ 
+                {"name": "Java", "icon": <FaJava/>}, {"name":"Javafxml"},{"name":"JavaMail API", "icon": <FaMailBulk/>}], 
+            "web": "", 
+            "git": "https://github.com/UTSA-CS-3443/PotTYpicker", 
             "description": " is your go-to application for user rated reviews on the best and the worst bathrooms. Student can let the janitorial or school knows if the bathroom needs some improvements", 
             "url": "https://github.com/UTSA-CS-3443/PotTYpicker/blob/master/image/Login_Controller.png?raw=true"
         }, 
