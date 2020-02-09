@@ -4,6 +4,7 @@ import Title from './Title'
 import Avatar from '@material-ui/core/Avatar';
 import {FaMapMarkerAlt} from "react-icons/fa"
 import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 import './Experience.css'
 // Experience Section
 
@@ -46,7 +47,7 @@ const Experience = (props) => {
         <div  className="page-wrapper" >
      {experience.map( index =>{
             return (
-            <Bounce left>
+            <Bounce left duration={3000}>
             <div id={index.key}  
             className="profile-1"  
                 s>
@@ -56,7 +57,7 @@ const Experience = (props) => {
                 style={{width: "4rem", 
                         height: "4rem" ,
                         display: "block",
-                        marginTop: "40%",
+                        marginTop: "30%",
                         marginLeft: "15%"
                       }}/>
             </div>

@@ -34,11 +34,12 @@ export default function Card  (props) {
     return (
         <div className="root">
             <img alt="project" className="img" src={currentProject.url}   />
-            <h2 className="title"> {currentProject.name}</h2>
+            <a href={currentProject.git} target="_blank" rel="noopener noreferrer"> <h2 className="title"> {currentProject.name} {'   '}  {currentProject.iconForName}</h2> </a>
+           
             <ul className="ul" >
             {currentProject.lan.map(index =>{
                 return (
-            <li className="li">{index.icon}{index.name} </li>
+                <li className="li"> <span>{index.icon}</span>{index.name} </li>
                 )
             })}
             </ul>

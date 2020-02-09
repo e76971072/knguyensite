@@ -6,7 +6,7 @@ import Greeting from './components/Greeting'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Navbar from './components/NavBar2'
-
+import Hobbies from './components/Hobbies'
 import './App.css'
 function App(props) {
 
@@ -19,7 +19,7 @@ function App(props) {
       <Greeting  resumeAbout= {resumeData.About} resumeName={resumeData.name} resumeEmail= {resumeData.email}/> 
         <Projects  projects={resumeData.Project} />
         <Experience experience={resumeData.experience}/>
-        {/* <SlideWindow /> */}
+        <Hobbies />
        </div>
     </div>
   );
