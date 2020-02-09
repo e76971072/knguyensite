@@ -46,7 +46,7 @@ const contactHoverLeave = (event) => {
             <h2 id="name"> {name} </h2>
             <h1 id="about"> Full
             
-            <Media queries={{ small: { minWidth: 700 } }}>
+            <Media queries={{ small: { minWidth: 1030 } }}>
             <svg height="80px" 
                  transform='rotate(20 -50 20)'
              
@@ -93,7 +93,7 @@ const contactHoverLeave = (event) => {
                     <path d="m107.300781 418.007812c1.429688 1.324219 3.261719 2 5.101563 2 1.492187 0 2.992187-.441406 4.285156-1.34375l63.460938-44.144531c2.894531-2.011719 3.996093-5.773437 2.648437-9.03125-4.328125-10.464843-12.082031-18.734375-21.65625-23.742187l-68.558594 47.535156c1.371094 10.925781 6.558594 21.167969 14.71875 28.726562zm0 0" fill="#d83636"/>
                     </svg> 
                     </Media>
-                    <Media queries={{ small: { maxWidth: 700 } }}>
+                    <Media queries={{ small: { maxWidth: 1030 } }}>
             <svg height="40px" 
                  transform='rotate(20 -50 7)'
              
