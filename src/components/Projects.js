@@ -7,9 +7,9 @@ import Fade from 'react-reveal/Fade';
 import './Projects.css'
 import Card from './Card'
 
+
+// Project component 
 export default function Projects (props) {
- 
-  
     const Projects = props.projects
         const words = [
             'built', 
@@ -53,7 +53,7 @@ return (
               </p> 
             
              
-            <Card current={index} />
+            <Card current={index}/>
             <div className="iconMobile">
             <a href={index.git} target="_blank" rel="noopener noreferrer"><FaGithub  className="githubProject"/> </a>
             <a href={index.web} target="_blank" rel="noopener noreferrer"><FaTelegram className="githubProject"/></a>

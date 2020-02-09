@@ -53,7 +53,7 @@ function NavBar2 (props) {
     // window.addEventListener('scroll', handleScroll)
     
     return (
-        <Media queries={{ small: { minWidth: 700 } }}>
+        <Media queries={{ small: { minWidth: 818 } }}>
             <ul className="listNavBar" style={styles.ul}>
                 <li onClick= {(event) => handleWindowScroll(event)} id="one" 
                     onMousEnter={{color: "rgb(100,255,176)"}}

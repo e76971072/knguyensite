@@ -29,32 +29,7 @@ span {
     font-size:  1em;
     color: honeydew;
 }
-.ul li {
-    /* background: white;
-    padding: 5px;
-    font-family: Camphor,Open Sans,Segoe UI,sans-serif;
-    border-radius: 2px;
-    color:rgb(97, 103, 216);
-    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08); */
-    margin-right: 20px;
-    margin-top: 20px;
-    white-space: nowrap;
-    display: inline-block;
-    line-height: 40px;
-    padding: 0 14px;
-    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-    border-radius: 4px;
-    letter-spacing: .025em;
-    text-decoration: none;
-    transition: all .15s ease;
-    font-family: Camphor,Open Sans,Segoe UI,sans-serif;
-    font-size: .9em;
-    font-weight: 600;
-    box-sizing: border-box;
-    background: #fff;
-    color:   #747fe0;
-    
-}
+
 .description {
     color: rgb(136, 146, 176); 
     background-color: rgb(23,37,59); 
@@ -83,7 +58,7 @@ span {
     position: absolute;
     left: 50%;
     font-size: 1.5em;
-    transform: translateY(-10em);
+    transform: translateX(-5em);
    }
    .githubProject:hover {
        color: rgb(100, 255, 218);
@@ -96,13 +71,21 @@ span {
    }
    .containerCard {
     width: 20em;
+    text-align: center;
+    }
+    .containerProjects {
+        justify-content: center;
+        align-items: center;
     }
   
 }
 @media ( max-width: 700px){
     .iconMobile{
-    left: 30%;
+    left:10%;
     position: relative;
+    }
+    .containerCard {
+        text-align: center;
     }
 }
 @media ( max-width: 500px){
@@ -111,5 +94,6 @@ span {
     }
     .containerCard {
         width: 20em;
+        text-align: center;
     }
 }

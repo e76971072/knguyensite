@@ -112,7 +112,7 @@ export default function NavBar( props ) {
   };
 
   return (
-    <Media queries={{ small: { maxWidth: 700 } }}>
+    <Media queries={{ small: { maxWidth: 818 } }}>
     <div className={classes.root}>
       <CssBaseline />
       <AppBar
