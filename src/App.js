@@ -19,7 +19,7 @@ function App(props) {
       <Greeting  resumeAbout= {resumeData.About} resumeName={resumeData.name} resumeEmail= {resumeData.email}/> 
         <Projects  projects={resumeData.Project} />
         <Experience experience={resumeData.experience}/>
-        <Hobbies />
+        {/* <Hobbies /> */}
        </div>
     </div>
   );

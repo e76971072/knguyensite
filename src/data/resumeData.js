@@ -5,7 +5,7 @@ import { FaJava ,FaReact , FaPython, FaDatabase, FaMailBulk,  FaExternalLinkAlt 
 const  resume = {
     "Header":["About", "Education", "Hobbies", "Experience", "Skills", "Contact" ], 
     "About": "You can call me Fullsnack or Software Engineer ", 
-    "name": "Kevin Nguyen", 
+    "name": " Kevin Nguyen", 
     "title": "Software Engineer", 
     "titleProject": "Something I've built with ", 
     "email": "an.nguyen1197@gmail.com", 
