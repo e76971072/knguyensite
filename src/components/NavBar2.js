@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
 import {FaRegFilePdf} from "react-icons/fa"
+import dataResume from '../data/Kevin_Nguyen_Resume_2020.pdf'
 import './NavBar2.css'
 import Media from 'react-media'
 
@@ -65,7 +66,7 @@ function NavBar2 (props) {
                 <li onClick= {(event) => handleWindowScroll(event)} id="four" >  
                     <Button 
                         style={styles.button}
-                        href="https://drive.google.com/file/d/1hG2hO3QGnRroUjmOg8VJSGgrvOaKL56G/view?usp=sharing"
+                        href= {dataResume}
                         target="_blank"> 
                         Résumé&nbsp;&nbsp; <FaRegFilePdf /> 
                      </Button>
