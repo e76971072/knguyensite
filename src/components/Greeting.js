@@ -55,6 +55,9 @@ const contactHoverLeave = (event) => {
     setTextContact("GET IN TOUCH"); 
     setStyle(!style); 
 }
+const handleSendEmail = (event) => {
+    window.location.assign("mailto:an.nguyen1197@gmail.com");
+}
     return (
             // Picture of me 
         <div id="containerGreeting" >
@@ -165,6 +168,7 @@ const contactHoverLeave = (event) => {
             style = {style === true ? styles.onMouseEnter : styles.onMouseLeave}
             onMouseEnter={(event)=> contactHover(event)} 
             onMouseLeave={(event)=> contactHoverLeave(event)}
+            onClick = { (event) => handleSendEmail(event)}
             variant="contained" >
                  {textContact} &nbsp; <FaRegPaperPlane/>
             </Button>
