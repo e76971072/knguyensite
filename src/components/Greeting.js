@@ -1,7 +1,9 @@
 import React, {useState}  from 'react'
 import  logo from '../data/img/profilePicture.jpg'
 import Button from '@material-ui/core/Button';
-import { FaRegPaperPlane  } from "react-icons/fa";
+import { FaRegPaperPlane, FaRegFilePdf  } from "react-icons/fa";
+import dataLink from '../data/Kevin_Nguyen_Resume_2020.pdf'
+
 import Media from 'react-media'
 import './Greeting.css'
 
@@ -26,7 +28,22 @@ const styles =  {
     onMouseLeave :{ 
         borderRadius: "1rem", 
         background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
-    }
+    },
+    button:{
+        border: "0.5px solid rgb(100,255,218)",
+        color: "rgb(100,255,218)", 
+        
+    },
+    onMouseEnterMobile: {
+        background: "transparent", 
+        border: "1px solid white",
+        color: "red", 
+    },
+    onMouseLeaveMobile:{ 
+        borderRadius: "1rem", 
+        fontSize: "12px",  
+        background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
+    },
 }; 
 
 const contactHover = (event ) => {
@@ -142,12 +159,34 @@ const contactHoverLeave = (event) => {
                     </Media>
                     Engineer </h1>
             <h3 id="school"> I am currently enjoy my senior year at  <span id="university"> University of Texas at San Antonio </span></h3>
+            
+            <Media queries={{ small: { minWidth: 1030 } }}>
             <Button 
             style = {style === true ? styles.onMouseEnter : styles.onMouseLeave}
             onMouseEnter={(event)=> contactHover(event)} 
             onMouseLeave={(event)=> contactHoverLeave(event)}
             variant="contained" >
                  {textContact} &nbsp; <FaRegPaperPlane/>
+            </Button>
+            </Media>
+             
+            <Media queries={{ small: { maxWidth: 1030 } }}>
+            <Button 
+            style = {style === true ? styles.onMouseEnterMobile : styles.onMouseLeaveMobile}
+            onMouseEnter={(event)=> contactHover(event)} 
+            onMouseLeave={(event)=> contactHoverLeave(event)}
+            variant="contained" >
+                 {textContact} &nbsp; <FaRegPaperPlane/>
+            </Button>
+            </Media>
+            <br/> 
+            <br/>
+            <Button
+            style={styles.button}
+            href={dataLink}
+            target="_link"
+            >
+                Résumé&nbsp;&nbsp; <FaRegFilePdf /> 
             </Button>
         </div>
     )
