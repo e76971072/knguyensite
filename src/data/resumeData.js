@@ -32,7 +32,7 @@ const  resume = {
             "lan": [{"name":"ReactJS", "icon": <FaReact />}, {"name":"Python", "icon": <FaPython />}, {"name": "PhpMySQL", "icon": <FaDatabase /> }], 
             "web": "http://grocery-front-end.herokuapp.com/", 
             "git": "https://github.com/e76971072/RowdyCart-User-Interface", 
-            "description": "is a one-stop grocery shop containing a catalog of grocery items to fit your everyday needs, also help UTSA students stay healthy. We wanted to make the process of getting groceries as painless as possible.", 
+            "description": "is a one-stop grocery shop containing a catalog of grocery items to fit your everyday needs. We also aim to help UTSA students stay healthy", 
             "url": "https://github.com/e76971072/RowdyCart-User-Interface/blob/master/img/Cart-checkout-view.png?raw=true", 
         }, 
         {
@@ -42,7 +42,7 @@ const  resume = {
                 {"name": "Java", "icon": <FaJava />}, {"name":"Javafxml"},{"name":"JavaMail API", "icon": <FaMailBulk />}], 
             "web": "", 
             "git": "https://github.com/UTSA-CS-3443/PotTYpicker", 
-            "description": " is your go-to application for user rated reviews on the best and the worst bathrooms. Student can let the janitorial or school knows if the bathroom needs some improvements", 
+            "description": " is your go-to application for user rated reviews on the best and the worst bathrooms. Students can let the janitorial staffs or school knows if the bathroom needs certain improvements", 
             "url": "https://github.com/UTSA-CS-3443/PotTYpicker/blob/master/image/Login_Controller.png?raw=true"
         }, 
         {
@@ -52,7 +52,7 @@ const  resume = {
                 {"name":"Python", "icon": <FaPython />}], 
             "web": "", 
             "git": "https://github.com/e76971072/AI-Assistant", 
-            "description": " is a simple AI project to create ease of use for all. Some functionalities, include transcribing audio to text, personnal assistance for call and message and order pizza.", 
+            "description": " is a simple AI project to create ease of use for all. Some functionalities, include transcribing audio to text, personal assistance for call and message , or for ordering pizza.", 
             "url": "https://github.com/e76971072/AI-Assistant/raw/master/image/Example.png"
         }, 
         

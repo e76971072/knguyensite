@@ -1,5 +1,6 @@
 import React  from 'react'
 import './Card.css'
+import { Link } from '@material-ui/core'
 
 export default function Card  (props) {
     const currentProject  = props.current
@@ -31,10 +32,13 @@ export default function Card  (props) {
     //     letterSpacing: "1px", 
     //     }, 
     // }   
+    const handleWebsite = (event, Link) => {
+        window.open(Link, '_blank');
+    }
     return (
         <div className="root">
             <img alt="project" className="img" src={currentProject.url}   />
-            <a href={currentProject.git} target="_blank" rel="noopener noreferrer"> <h2 className="title"> {currentProject.name} {'   '}  {currentProject.iconForName}</h2> </a>
+            <h2  onClick = {(event) => handleWebsite (event, currentProject.git)}className="title"> {currentProject.name} {'   '}  {currentProject.iconForName}</h2>
            
             <ul className="ul" >
             {currentProject.lan.map(index =>{
