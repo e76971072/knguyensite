@@ -160,7 +160,7 @@ const contactHoverLeave = (event) => {
                     Engineer </h1>
             <h3 id="school"> I am currently enjoy my senior year at  <span id="university"> University of Texas at San Antonio </span></h3>
             
-            <Media queries={{ small: { minWidth: 1030 } }}>
+         
             <Button 
             style = {style === true ? styles.onMouseEnter : styles.onMouseLeave}
             onMouseEnter={(event)=> contactHover(event)} 
@@ -168,19 +168,11 @@ const contactHoverLeave = (event) => {
             variant="contained" >
                  {textContact} &nbsp; <FaRegPaperPlane/>
             </Button>
-            </Media>
-             
-            <Media queries={{ small: { maxWidth: 1030 } }}>
-            <Button 
-            style = {style === true ? styles.onMouseEnterMobile : styles.onMouseLeaveMobile}
-            onMouseEnter={(event)=> contactHover(event)} 
-            onMouseLeave={(event)=> contactHoverLeave(event)}
-            variant="contained" >
-                 {textContact} &nbsp; <FaRegPaperPlane/>
-            </Button>
-            </Media>
             <br/> 
             <br/>
+             
+            <Media queries={{ small: { maxWidth: 1030 } }}>
+          
             <Button
             style={styles.button}
             href={dataLink}
@@ -188,6 +180,7 @@ const contactHoverLeave = (event) => {
             >
                 Résumé&nbsp;&nbsp; <FaRegFilePdf /> 
             </Button>
+            </Media>
         </div>
     )
 }
