@@ -33,7 +33,7 @@ span {
 .description {
     color: rgb(136, 146, 176); 
     background-color: rgb(23,37,59); 
-    font-size: 1.1em;
+    font-size: 1.3em;
     position: absolute; 
     font-family : Times New Roman, Times, serif; 
     transform: translate(90%, 80%);
