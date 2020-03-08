@@ -64,7 +64,7 @@ const handleSendEmail = (event) => {
             <img  alt="icon" id="profileMe" src= {logo}   />   
             <h3  id="mynameis"> Hi, my name is </h3>
             <h2 id="name"> {name} </h2>
-            <h1 id="about"> Software
+            <h1 id="about"> Software {"  "}
 {/*             
             <Media queries={{ small: { minWidth: 1030 } }}>
             <svg height="80px" 
