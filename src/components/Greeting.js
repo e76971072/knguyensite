@@ -64,8 +64,8 @@ const handleSendEmail = (event) => {
             <img  alt="icon" id="profileMe" src= {logo}   />   
             <h3  id="mynameis"> Hi, my name is </h3>
             <h2 id="name"> {name} </h2>
-            <h1 id="about"> Full
-            
+            <h1 id="about"> Software
+{/*             
             <Media queries={{ small: { minWidth: 1030 } }}>
             <svg height="80px" 
                  transform='rotate(20 -50 20)'
@@ -159,7 +159,7 @@ const handleSendEmail = (event) => {
                     <path d="m242.855469 326.691406c.925781.382813 1.902343.570313 2.875.570313 1.511719 0 3.007812-.453125 4.285156-1.34375l54.675781-38.03125c2.09375-1.460938 3.308594-3.882813 3.214844-6.4375-.457031-12.507813-5.695312-23.675781-13.925781-31.804688l-76.105469 52.769531c4.804688 10.769532 13.589844 19.554688 24.980469 24.277344zm0 0" fill="#d83636"/>
                     <path d="m107.300781 418.007812c1.429688 1.324219 3.261719 2 5.101563 2 1.492187 0 2.992187-.441406 4.285156-1.34375l63.460938-44.144531c2.894531-2.011719 3.996093-5.773437 2.648437-9.03125-4.328125-10.464843-12.082031-18.734375-21.65625-23.742187l-68.558594 47.535156c1.371094 10.925781 6.558594 21.167969 14.71875 28.726562zm0 0" fill="#d83636"/>
                     </svg> 
-                    </Media>
+                    </Media> */}
                     Engineer </h1>
             <h3 id="school"> I am currently enjoy my senior year at  <span id="university"> University of Texas at San Antonio </span></h3>
             
