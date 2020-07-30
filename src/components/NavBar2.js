@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
 import {FaRegFilePdf} from "react-icons/fa"
-import dataResume from '../data/Kevin_Nguyen_Resume_2020.pdf'
+import dataResume from '../data/Kevin_Nguyen_Resume_new_2020.pdf'
 import './NavBar2.css'
 import Media from 'react-media'
 

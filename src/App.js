@@ -6,7 +6,6 @@ import Greeting from './components/Greeting'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Navbar from './components/NavBar2'
-import Hobbies from './components/Hobbies'
 import './App.css'
 function App(props) {
 

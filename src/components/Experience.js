@@ -4,7 +4,6 @@ import Title from './Title'
 import Avatar from '@material-ui/core/Avatar';
 import {FaMapMarkerAlt} from "react-icons/fa"
 import Bounce from 'react-reveal/Bounce';
-import Fade from 'react-reveal/Fade';
 import './Experience.css'
 // Experience Section
 

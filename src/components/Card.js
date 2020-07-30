@@ -1,6 +1,5 @@
 import React  from 'react'
 import './Card.css'
-import { Link } from '@material-ui/core'
 
 export default function Card  (props) {
     const currentProject  = props.current

@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaJava ,FaReact , FaPython, FaDatabase, FaMailBulk,  FaExternalLinkAlt } from "react-icons/fa";
-
-
+import covid from './img/project-covid.png'
 const  resume = {
     "Header":["About", "Education", "Hobbies", "Experience", "Skills", "Contact" ], 
     "About": "You can call me Fullsnack or Software Engineer ", 
@@ -26,6 +25,15 @@ const  resume = {
          }
     ], 
     "Project": [
+        {
+            "name": "Covid19 Tracker", 
+            "iconForName": <FaExternalLinkAlt/> , 
+            "lan": [{"name":"ReactJS", "icon": <FaReact />}, {"name":"Python", "icon": <FaPython />}, {"name": "MongoDB", "icon": <FaDatabase /> }], 
+            "web": "https://covid19-frontend-284821.uc.r.appspot.com/", 
+            "git": "https://github.com/e76971072/COVID-19-SPREAD", 
+            "description": "is an application to keep track of covid19 spread throughout global and USA", 
+            "url":   covid , 
+        }, 
         {
             "name": "RowdyMart", 
             "iconForName": <FaExternalLinkAlt/> , 
@@ -60,6 +68,19 @@ const  resume = {
     ], 
     "Education" : "University of Texas at San Antonio", 
     "experience": [
+        {
+            "name": "Self-Employed",
+            "pos": "Derivatives Trader", 
+            "web": "", 
+            "key":"one", 
+            "date": "Nov 2016 - Present", 
+            "url": "https://image.flaticon.com/icons/svg/2620/2620564.svg", 
+            "desc": [
+                {"task":"Working on various projects"}
+        ],   
+            "lan": "Java",
+            "loc": "San Antonio, Texas"
+        }, 
         {
             "name": "FreeLance",
             "pos": "FreeLance", 
