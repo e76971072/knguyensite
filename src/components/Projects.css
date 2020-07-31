@@ -76,6 +76,7 @@ span {
     .containerProjects {
         justify-content: center;
         align-items: center;
+        margin-left: 0;
     }
   
 }
@@ -91,9 +92,12 @@ span {
 @media ( max-width: 500px){
     .containerProjects h3  {
         font-size: 1.2em;
+        margin-left: 0;
+
     }
     .containerCard {
         width: 20em;
         text-align: center;
+        float: left;
     }
 }
