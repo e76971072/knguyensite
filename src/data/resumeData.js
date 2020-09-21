@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaJava ,FaReact , FaPython, FaDatabase, FaMailBulk,  FaExternalLinkAlt } from "react-icons/fa";
 import covid from './img/project-covid.png'
+import PL from './img/PL.png'
 const  resume = {
     "Header":["About", "Education", "Hobbies", "Experience", "Skills", "Contact" ], 
     "About": "You can call me Fullsnack or Software Engineer ", 
@@ -25,6 +26,15 @@ const  resume = {
          }
     ], 
     "Project": [
+        {
+            "name": "Trade Smarter", 
+            "iconForName": <FaExternalLinkAlt/> , 
+            "lan": [{"name":"ReactJS", "icon": <FaReact />}, {"name":"Python", "icon": <FaPython />}, {"name": "MongoDB", "icon": <FaDatabase /> }], 
+            "web": "https://github.com/e76971072/Trade-Smarter-Platform", 
+            "git": "https://github.com/e76971072/Trade-Smarter-Platform", 
+            "description": " is a Platform to help retail and stock traders to test out their strategy and assessing risk/reward before entering a trade", 
+            "url":  PL , 
+        }, 
         {
             "name": "Covid19 Tracker", 
             "iconForName": <FaExternalLinkAlt/> , 
