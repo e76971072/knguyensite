@@ -1,99 +1,86 @@
 .root {
-    background: rgba(255,255,255) ;
-    width: fit-content; 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    z-index: 2; 
+  background: rgba(255, 255, 255);
+  width: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 2;
 }
 .img {
-    background-color: rgba(220,220,220,0.4);
-    z-index: 1 ;
-    width: 600px; 
+  background-color: rgba(220, 220, 220, 0.4);
+  z-index: 1;
+  width: 600px;
 }
 .li {
-    /* display: inline-block;  
-    margin: 10px;
-    font-size: 1.1em;
-    color: rgba(48,69,92,0.8);
-    letter-spacing: 1px; */
-        /* background: white;
-        padding: 5px;
-        font-family: Camphor,Open Sans,Segoe UI,sans-serif;
-        border-radius: 2px;
-        color:rgb(97, 103, 216);
-        box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08); */
-        margin-right: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        white-space: nowrap;
-        display: inline-block;
-        line-height: 40px;
-        padding: 0 14px;
-        box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-        border-radius: 4px;
-        letter-spacing: .025em;
-        text-decoration: none;
-        transition: all .15s ease;
-        font-family: Camphor,Open Sans,Segoe UI,sans-serif;
-        font-size: .9em;
-        font-weight: 600;
-        box-sizing: border-box;
-        background: #fff;
-        color:   #747fe0;
-        
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  box-sizing: border-box;
+  background: #fff;
+  color: #747fe0;
 }
-.root span{
-    font-size: 1.4rem ;
-    margin-right: 8%;
-    color: #747fe0;
-    vertical-align:middle;
+.root span {
+  font-size: 1.4rem;
+  margin-right: 8%;
+  color: #747fe0;
+  vertical-align: middle;
 }
 
 .ul a {
-    width: fit-content;
-    text-decoration: none;
+  width: fit-content;
+  text-decoration: none;
 }
 .ul {
-    text-align: center; 
+  text-align: center;
 }
 .title {
-    /* background-color: rgba(255,104,115,1);  */
-        box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-        border-radius: 4px;
-        padding: 0 14px;
-        letter-spacing: .025em;
-        text-decoration: none;
-        transition: all .15s ease;
-        font-family: Camphor,Open Sans,Segoe UI,sans-serif;
-        font-size: 1.4em;
-        font-weight: 200;
-        line-height: 40px;
-        box-sizing: border-box;
-        color: #fff;
-        width: fit-content;
-        background-color:   #747fe0;
-        margin-left: 35%;
+  /* background-color: rgba(255,104,115,1);  */
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 0 14px;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  font-size: 1.4em;
+  font-weight: 200;
+  line-height: 40px;
+  box-sizing: border-box;
+  color: #fff;
+  width: fit-content;
+  background-color: #747fe0;
+  margin-left: 35%;
 }
 .title:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
-    
+
 @media (max-width: 62.5em) {
-    .img {
-        width: 20em;
-    }
-    .title {
-        font-size: 0.5em;
-    }
-    .li {
-        font-size: 0.2em;
-    }
-   
+  .img {
+    width: 20em;
+  }
+  .title {
+    font-size: 0.5em;
+  }
+  .li {
+    font-size: 0.2em;
+  }
 }
-@media ( max-width: 500px){
-   .li {
-       font-size: 0.5em;
-   }
-   .title {
-       font-size: 0.5em;
-   }
+@media (max-width: 500px) {
+  .li {
+    font-size: 0.5em;
+  }
+  .title {
+    font-size: 0.5em;
+  }
 }

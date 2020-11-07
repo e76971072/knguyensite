@@ -3,9 +3,6 @@ import './ActivitiesCard.css'
 import image01 from  '../data/img/Canon-hackathon.jpg'
 export default function ActivitiesCard (props) {
 
-
-
-
         return (
                 <div className="containerActivity">
                     <div className="containerPicture">
