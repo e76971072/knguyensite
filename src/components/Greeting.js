@@ -2,7 +2,7 @@ import React, {useState}  from 'react'
 import  logo from '../data/img/profilePicture.jpg'
 import Button from '@material-ui/core/Button';
 import { FaRegPaperPlane, FaRegFilePdf  } from "react-icons/fa";
-import dataLink from '../data/Kevin_Nguyen_Resume_new_2020.pdf'
+import dataLink from '../data/Kevin_Nguyen_Resume_graduate_CV.pdf'
 
 import Media from 'react-media'
 import './Greeting.css'
