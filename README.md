@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 
-In the project directory, you can run:
+<p align="center">
+<img src="./images/porfolio.png" width="300" height="500"/>
+</p>
 
-### `yarn start`
+## Demo 
+> [My Porfolio](https://kevinnguyen.team)
 
-Runs the app in the development mode.<br />
-Open [https://localhost:3000](https://localhost:3000) to view it in the browser.
+## Installation 🛠
+👯‍♀️ **Fork this repo** 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+🔗 ```git clone https://github.com/e76971072/knguyensite.git```
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Install all dependencies ⛓
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+ npm install or yarn install 
+```
+### Usage 👨‍💻
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```javascript
+📝 Edit your information in src/data/resumeData.js
+```
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> ***EXAMPLE***
+```javascript
+const  resume = {
+    "Header":["About", "Education", "Hobbies", "Experience", "Skills", "Contact" ], 
+    "About": {About_You}, 
+    "name": {Your_Name}, 
+    "title": {Postion_Title}, 
+    "titleProject": {Project_Header}, 
+    "email": {Your_Email}, 
+    "Social-media" :[
+         {
+             "name": "Linkedin", 
+             "url": {URL}, 
+         }
+         ,
+         {
+             "name": "Github", 
+             "url": {URL}
+         }
+         , 
+         {
+             "name": "Spotify", 
+             "url": {URL}
+         }
+    ], 
+    
+    # List of Projects 
+    "Project": [
+        {
+            "name": {Project_Name}, 
+            "iconForName": <FaExternalLinkAlt/> , 
+            "lan": [{"name":"ReactJS", "icon": <FaReact />}, {"name":"Python", "icon": <FaPython />}, {"name": "MongoDB", "icon": <FaDatabase /> }], 
+            "web": "https://github.com/e76971072/Trade-Smarter-Platform", 
+            "git": "https://github.com/e76971072/Trade-Smarter-Platform", 
+            "description": " is a Platform to help retail and stock traders to test out their strategy and assessing risk/reward before entering a trade", 
+            "url":  {Link_To_Your_Project} , 
+        }, 
+    ], 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+###  Run 
 
-## Learn More
+``` npm start ``` 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ ### Interested in my [resume](https://www.overleaf.com/latex/templates/deedy-cv/bjryvfsjdyxz) template ?  📝
+ 
+ <p align="center">
+<img src="https://www.docdroid.net/file/view/kmJ7ju0/deedy-resume-6-1-pdf.jpg" width="400" height="500"/>
+</p>
+ 
 
-### Code Splitting
+ - **check out** [resume](https://www.overleaf.com/latex/templates/deedy-cv/bjryvfsjdyxz)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
